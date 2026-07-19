@@ -10,7 +10,9 @@ import logoStart from '../FRON PRESENTAICON APP/Logo_inicio.png'
 export default function App() {
   useInitEffects()
 
-  const apkDownloadUrl = `${import.meta.env.BASE_URL}downloads/MauleStyle.apk`
+  const apkDownloadUrl = typeof window !== 'undefined'
+    ? new URL('downloads/MAULESTYLE.APK', window.location.href).toString()
+    : '/downloads/MAULESTYLE.APK'
 
   return (
     <>
