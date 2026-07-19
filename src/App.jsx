@@ -10,6 +10,8 @@ import logoStart from '../FRON PRESENTAICON APP/Logo_inicio.png'
 export default function App() {
   useInitEffects()
 
+  const apkDownloadUrl = `${import.meta.env.BASE_URL}downloads/MauleStyle.apk`
+
   return (
     <>
       <div className="bg-glow glow-1"></div>
@@ -25,7 +27,7 @@ export default function App() {
           <nav className="nav">
             <a href="#why-us">Beneficios</a>
             <a href="#gallery">Colección</a>
-            <a href="/downloads/MauleStyle.apk" download className="btn-primary-sm">Descargar App</a>
+            <a href={apkDownloadUrl} download className="btn-primary-sm">Descargar App</a>
           </nav>
         </div>
       </header>
@@ -38,7 +40,7 @@ export default function App() {
               <h1 className="hero-title">Tu estilo,<br/><span className="text-gradient">en la palma de tu mano.</span></h1>
               <p className="hero-description">Descubre las últimas colecciones en ropa y zapatillas. Compra de forma segura, encuentra tu talla perfecta y aprovecha ofertas exclusivas directamente desde tu celular.</p>
               <div className="hero-buttons">
-                <a href="/downloads/MauleStyle.apk" download className="btn-primary ripple-btn">
+                <a href={apkDownloadUrl} download className="btn-primary ripple-btn">
                   <i className="ph-fill ph-download-simple"></i>
                   Descargar APK
                 </a>
@@ -145,7 +147,7 @@ export default function App() {
               <h2>Lleva el mejor estilo contigo</h2>
               <p>Descarga la última versión del APK y empieza a explorar de forma 100% segura.</p>
 
-              <a href="/downloads/MauleStyle.apk" download className="btn-primary btn-large ripple-btn">
+              <a href={apkDownloadUrl} download className="btn-primary btn-large ripple-btn">
                 <i className="ph-fill ph-download-simple"></i>
                 Descargar APK Oficial
               </a>
