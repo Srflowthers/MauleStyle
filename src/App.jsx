@@ -23,7 +23,7 @@ export default function App() {
             <span className="app-name">Maule Style</span>
           </div>
           <nav className="nav">
-            <a href="#features">Beneficios</a>
+            <a href="#why-us">Beneficios</a>
             <a href="#gallery">Colección</a>
             <a href="/downloads/MauleStyle.apk" download className="btn-primary-sm">Descargar App</a>
           </nav>
@@ -42,7 +42,7 @@ export default function App() {
                   <i className="ph-fill ph-download-simple"></i>
                   Descargar APK
                 </a>
-                <a href="#features" className="btn-secondary">Ver beneficios</a>
+                <a href="#why-us" className="btn-secondary">Ver beneficios</a>
               </div>
             </div>
             <div className="hero-image-wrapper reveal-zoom">
@@ -59,7 +59,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="why-us">
+        <section className="why-us" id="why-us">
           <div className="container">
             <div className="two-columns">
               <div className="why-text reveal-fade-up">
