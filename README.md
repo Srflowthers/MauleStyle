@@ -13,7 +13,7 @@ Resumen de cambios:
 Notas importantes:
 
 - Los assets binarios (PNG) se mantienen en `FRON PRESENTAICON APP/` y se importan desde `src/App.jsx` para no perder los ficheros originales. Si prefieres, puedo moverlos a `public/assets/images` — indícame si lo hago.
- - El APK de la app debe colocarse en `public/downloads/MAULESTYLE.APK` para que el botón "Descargar APK" funcione correctamente. He creado `public/downloads/README.md` con instrucciones.
+ - El APK de la app debe colocarse en `public/downloads/MauleStyle.apk` para que el botón "Descargar APK" funcione correctamente. He creado `public/downloads/README.md` con instrucciones.
 - Para desplegar en GitHub Pages, el `base` está en `./`. Si tu repositorio usa `username.github.io/repo`, cambia `base` a `'/repo/'` o define `VITE_BASE` durante el build.
 
 Comandos:
