@@ -68,7 +68,7 @@ export default function App() {
 
                 <ul className="why-list">
                   <li><i className="ph-fill ph-check-circle text-gradient"></i> Interfaz intuitiva y moderna</li>
-                  <li><i className="ph-fill ph-check-circle text-gradient"></i> Guarda tus productos favoritos en Wishlist</li>
+                  <li><i className="ph-fill ph-check-circle text-gradient"></i> Visualiza un catálogo con stock para encargo y entrega inmediata</li>
                   <li><i className="ph-fill ph-check-circle text-gradient"></i> Visualiza cada detalle en fotos de alta resolución</li>
                   <li><i className="ph-fill ph-check-circle text-gradient"></i> Trato directo y atención personalizada en tu compra</li>
                   <li><i className="ph-fill ph-check-circle text-gradient"></i> Rendimiento excelente en todos los dispositivos Android</li>
