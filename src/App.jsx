@@ -64,7 +64,7 @@ export default function App() {
             <div className="two-columns">
               <div className="why-text reveal-fade-up">
                 <h2>Renueva tu outfit <br/><span className="text-gradient">donde sea que estés.</span></h2>
-                <p>Hemos diseñado esta aplicación para que tus compras sean tan rápidas y cómodas como tus zapatillas favoritas.</p>
+                <p>Hemos diseñado esta aplicación para que tus compras sean tan rápidas y cómodas viendo las tallas en tiempo real.</p>
 
                 <ul className="why-list">
                   <li><i className="ph-fill ph-check-circle text-gradient"></i> Interfaz intuitiva y moderna</li>
