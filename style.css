@@ -647,20 +647,66 @@ ul {
     font-size: 1.8rem;
     color: var(--text-muted);
 }
- / *   - - -   M o b i l e   R e s p o n s i v e   F i x e s   - - -   * / 
- @ m e d i a   ( m a x - w i d t h :   4 8 0 p x )   { 
-         h t m l ,   b o d y   { 
-                 o v e r f l o w - x :   h i d d e n ; 
-                 w i d t h :   1 0 0 v w ; 
-         } 
-         . h e r o - t i t l e   { 
-                 f o n t - s i z e :   2 . 2 r e m ; 
-         } 
-         h 2   { 
-                 f o n t - s i z e :   1 . 8 r e m   ! i m p o r t a n t ; 
-         } 
-         . a p p - n a m e   { 
-                 f o n t - s i z e :   1 r e m ; 
-         } 
- }  
- 
+ /* --- Mobile Responsive Fixes --- */
+@media (max-width: 480px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+    .container {
+        padding: 0 16px;
+    }
+    .header {
+        padding: 10px 0;
+    }
+    .logo-container {
+        gap: 8px;
+    }
+    .app-icon {
+        width: 36px;
+        height: 36px;
+    }
+    .app-name {
+        font-size: 1rem;
+    }
+    .btn-primary-sm {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+    .hero {
+        padding: 100px 0 40px;
+    }
+    .hero-title {
+        font-size: 2.1rem;
+        margin-bottom: 12px;
+    }
+    .hero-description {
+        font-size: 0.95rem;
+        margin-bottom: 24px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .btn-large {
+        width: 100%;
+        padding: 14px 20px;
+    }
+    .section-header h2, h2, .download h2 {
+        font-size: 1.7rem !important;
+    }
+    .section-header p, .download p {
+        font-size: 0.95rem;
+    }
+    .feature-card {
+        padding: 20px 16px;
+    }
+    .feature-icon {
+        width: 44px;
+        height: 44px;
+        font-size: 1.5rem;
+    }
+    .footer-top {
+        gap: 30px;
+    }
+}
