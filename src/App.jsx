@@ -23,7 +23,9 @@ export default function App() {
       <header className="header">
         <div className="container header-container">
           <div className="logo-container">
-            <img src={appIcon} alt="App Icon" className="app-icon" />
+            <div className="app-icon-wrapper">
+              <img src={appIcon} alt="App Icon" className="app-icon" />
+            </div>
             <span className="app-name">Maule Style</span>
           </div>
           <nav className="nav">
