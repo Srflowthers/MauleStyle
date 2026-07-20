@@ -126,11 +126,8 @@ export default function App() {
             <div className="section-header reveal-zoom">
               <h2>Descubre nuestro <br/><span className="text-gradient">catálogo completo.</span></h2>
             </div>
-            <div className="gallery-carousel reveal-zoom">
-              <div className="gallery-track">
-                <img src={homeApp} alt="Pantalla de inicio de la App" className="gallery-img" />
-                <img src={promo} alt="Promoción especial en zapatillas y ropa" className="gallery-img" />
-              </div>
+            <div className="gallery-content reveal-zoom" style={{textAlign: 'center', padding: '40px 0'}}>
+              <h2 style={{fontSize: '2rem', margin: 0}}>Más de 1 año en el mercado.</h2>
             </div>
           </div>
         </section>
